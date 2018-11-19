@@ -1,0 +1,60 @@
+body{
+    font-family: 'Archivo Black', sans-serif;
+    background: dodgerblue;
+    color: white;
+    margin: 0;
+}
+.wrapper{
+    background: #111;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    margin-top: 0;
+}
+input:not([type=submit]):not([type=radio]):not([type=checkbox]){
+    color: #111;
+    width: 80%;
+    padding: 7px;
+    margin: 10px 0 10px 0;
+    font-size: 1.2em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+button{
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: dodgerblue;
+    border: 0;
+    outline: none;
+}
+button:hover{
+    color: white; 
+    background-color: dodgerblue;
+    border: 3px solid white;
+}
+img{
+    pointer-events: none;
+position: fixed;
+bottom: 0;
+right: 0;
+}
+#space{
+    height: 200px;
+}
+
+@media only screen and (max-width: 750px) {
+    textarea {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #space{
+        height: 100px;
+    }
+}
